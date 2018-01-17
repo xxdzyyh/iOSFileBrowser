@@ -13,6 +13,11 @@
 		1AF9A5601F6346BE001F6D29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9A55E1F6346BE001F6D29 /* Main.storyboard */; };
 		1AF9A5621F6346BE001F6D29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9A5611F6346BE001F6D29 /* Assets.xcassets */; };
 		1AF9A5651F6346BE001F6D29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AF9A5631F6346BE001F6D29 /* LaunchScreen.storyboard */; };
+		B8251A67200F4D3400980776 /* file.png in Resources */ = {isa = PBXBuildFile; fileRef = B8251A62200F4D3400980776 /* file.png */; };
+		B8251A68200F4D3400980776 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = B8251A63200F4D3400980776 /* folder.png */; };
+		B8251A69200F4D3400980776 /* iOSFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8251A66200F4D3400980776 /* iOSFileBrowser.m */; };
+		B8251A6C200F4E1300980776 /* iOSWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8251A6B200F4E1300980776 /* iOSWebviewController.m */; };
+		B8251A6E200F4FC000980776 /* head.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8251A6D200F4FC000980776 /* head.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,13 @@
 		1AF9A5611F6346BE001F6D29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AF9A5641F6346BE001F6D29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AF9A5661F6346BE001F6D29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8251A62200F4D3400980776 /* file.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = file.png; sourceTree = "<group>"; };
+		B8251A63200F4D3400980776 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		B8251A65200F4D3400980776 /* iOSFileBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSFileBrowser.h; sourceTree = "<group>"; };
+		B8251A66200F4D3400980776 /* iOSFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSFileBrowser.m; sourceTree = "<group>"; };
+		B8251A6A200F4E1300980776 /* iOSWebviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSWebviewController.h; sourceTree = "<group>"; };
+		B8251A6B200F4E1300980776 /* iOSWebviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebviewController.m; sourceTree = "<group>"; };
+		B8251A6D200F4FC000980776 /* head.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = head.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,12 @@
 		1AF9A5541F6346BE001F6D29 /* iOSFileBrowser_Example */ = {
 			isa = PBXGroup;
 			children = (
+				B8251A60200F4D3400980776 /* iOSFileBrowser */,
 				1AF9A5581F6346BE001F6D29 /* AppDelegate.h */,
 				1AF9A5591F6346BE001F6D29 /* AppDelegate.m */,
 				1AF9A55B1F6346BE001F6D29 /* ViewController.h */,
 				1AF9A55C1F6346BE001F6D29 /* ViewController.m */,
+				B8251A6D200F4FC000980776 /* head.txt */,
 				1AF9A55E1F6346BE001F6D29 /* Main.storyboard */,
 				1AF9A5611F6346BE001F6D29 /* Assets.xcassets */,
 				1AF9A5631F6346BE001F6D29 /* LaunchScreen.storyboard */,
@@ -77,6 +91,36 @@
 				1AF9A5561F6346BE001F6D29 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8251A60200F4D3400980776 /* iOSFileBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B8251A61200F4D3400980776 /* Assets */,
+				B8251A64200F4D3400980776 /* Classes */,
+			);
+			name = iOSFileBrowser;
+			path = ../../iOSFileBrowser;
+			sourceTree = "<group>";
+		};
+		B8251A61200F4D3400980776 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B8251A62200F4D3400980776 /* file.png */,
+				B8251A63200F4D3400980776 /* folder.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B8251A64200F4D3400980776 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B8251A65200F4D3400980776 /* iOSFileBrowser.h */,
+				B8251A66200F4D3400980776 /* iOSFileBrowser.m */,
+				B8251A6A200F4E1300980776 /* iOSWebviewController.h */,
+				B8251A6B200F4E1300980776 /* iOSWebviewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +154,7 @@
 				TargetAttributes = {
 					1AF9A5511F6346BE001F6D29 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = CXJ8TF54LW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +185,9 @@
 				1AF9A5651F6346BE001F6D29 /* LaunchScreen.storyboard in Resources */,
 				1AF9A5621F6346BE001F6D29 /* Assets.xcassets in Resources */,
 				1AF9A5601F6346BE001F6D29 /* Main.storyboard in Resources */,
+				B8251A67200F4D3400980776 /* file.png in Resources */,
+				B8251A6E200F4FC000980776 /* head.txt in Resources */,
+				B8251A68200F4D3400980776 /* folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +198,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8251A6C200F4E1300980776 /* iOSWebviewController.m in Sources */,
 				1AF9A55D1F6346BE001F6D29 /* ViewController.m in Sources */,
 				1AF9A55A1F6346BE001F6D29 /* AppDelegate.m in Sources */,
+				B8251A69200F4D3400980776 /* iOSFileBrowser.m in Sources */,
 				1AF9A5571F6346BE001F6D29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CXJ8TF54LW;
 				INFOPLIST_FILE = iOSFileBrowser_Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CXJ8TF54LW;
 				INFOPLIST_FILE = iOSFileBrowser_Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -315,6 +365,7 @@
 				1AF9A56B1F6346BE001F6D29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

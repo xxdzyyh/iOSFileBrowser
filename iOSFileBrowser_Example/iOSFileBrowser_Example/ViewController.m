@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "iOSFileBrowser.h"
-
+#import "iOSWebviewController.h"
 @interface ViewController ()
 
 @end
@@ -41,6 +41,20 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)webviewPreview:(id)sender {
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"head" ofType:@"txt"];
+    
+    iOSWebviewController *vc = [[iOSWebviewController alloc] init];
+    
+    vc.title = filePath.lastPathComponent;
+    
+    [vc setFilePath:filePath];
+    
+     UINavigationController* nv = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    [self presentViewController:nv animated:NO completion:nil];
 }
 
 

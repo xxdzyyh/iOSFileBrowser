@@ -1,0 +1,7 @@
+#import <XAWeak/XAGiftTabPageModel.h>
+#import <XAWeak/XALivePopGiftHeaderTableViewCell.h>
+#import <XAWeak/XALiveGiftListCell.h>
+#import <XAWeak/XALiveSendGiftView.h>
+#import <XAWeak/XALiveTimingButton.h>
+#import <XAWeak/XAGiftTabTableViewCell.h>
+#import <XAWeak/XALivePopGiftTableViewCell.h>

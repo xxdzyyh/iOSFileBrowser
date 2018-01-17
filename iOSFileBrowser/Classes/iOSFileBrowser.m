@@ -7,6 +7,7 @@
 //
 
 #import "iOSFileBrowser.h"
+#import "iOSWebviewController.h"
 
 @interface iOSFileBrowser () {
     NSUInteger _directory;
@@ -130,6 +131,14 @@
             //this just log file's name to console
             //you can implement something more usefull here
             NSLog(@"%@", _files[indexPath.row - 1]);
+            
+            iOSWebviewController *vc = [[iOSWebviewController alloc] init];
+            
+            vc.title = _files[indexPath.row - 1];
+            
+            [vc setFilePath:[_pwd stringByAppendingPathComponent:_files[indexPath.row - 1]]];
+            
+            [self.navigationController pushViewController:vc animated:YES];
         }
     }
 }
