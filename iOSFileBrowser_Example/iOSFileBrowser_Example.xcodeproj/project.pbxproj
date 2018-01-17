@@ -17,7 +17,8 @@
 		B8251A68200F4D3400980776 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = B8251A63200F4D3400980776 /* folder.png */; };
 		B8251A69200F4D3400980776 /* iOSFileBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8251A66200F4D3400980776 /* iOSFileBrowser.m */; };
 		B8251A6C200F4E1300980776 /* iOSWebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8251A6B200F4E1300980776 /* iOSWebviewController.m */; };
-		B8251A6E200F4FC000980776 /* head.txt in Resources */ = {isa = PBXBuildFile; fileRef = B8251A6D200F4FC000980776 /* head.txt */; };
+		B8251A6E200F4FC000980776 /* head.log in Resources */ = {isa = PBXBuildFile; fileRef = B8251A6D200F4FC000980776 /* head.log */; };
+		B8251A70200F560100980776 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8251A6F200F560100980776 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +38,8 @@
 		B8251A66200F4D3400980776 /* iOSFileBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSFileBrowser.m; sourceTree = "<group>"; };
 		B8251A6A200F4E1300980776 /* iOSWebviewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSWebviewController.h; sourceTree = "<group>"; };
 		B8251A6B200F4E1300980776 /* iOSWebviewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebviewController.m; sourceTree = "<group>"; };
-		B8251A6D200F4FC000980776 /* head.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = head.txt; sourceTree = "<group>"; };
+		B8251A6D200F4FC000980776 /* head.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = head.log; sourceTree = "<group>"; };
+		B8251A6F200F560100980776 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,8 @@
 				1AF9A5591F6346BE001F6D29 /* AppDelegate.m */,
 				1AF9A55B1F6346BE001F6D29 /* ViewController.h */,
 				1AF9A55C1F6346BE001F6D29 /* ViewController.m */,
-				B8251A6D200F4FC000980776 /* head.txt */,
+				B8251A6D200F4FC000980776 /* head.log */,
+				B8251A6F200F560100980776 /* 1.jpg */,
 				1AF9A55E1F6346BE001F6D29 /* Main.storyboard */,
 				1AF9A5611F6346BE001F6D29 /* Assets.xcassets */,
 				1AF9A5631F6346BE001F6D29 /* LaunchScreen.storyboard */,
@@ -183,10 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF9A5651F6346BE001F6D29 /* LaunchScreen.storyboard in Resources */,
+				B8251A70200F560100980776 /* 1.jpg in Resources */,
 				1AF9A5621F6346BE001F6D29 /* Assets.xcassets in Resources */,
 				1AF9A5601F6346BE001F6D29 /* Main.storyboard in Resources */,
 				B8251A67200F4D3400980776 /* file.png in Resources */,
-				B8251A6E200F4FC000980776 /* head.txt in Resources */,
+				B8251A6E200F4FC000980776 /* head.log in Resources */,
 				B8251A68200F4D3400980776 /* folder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

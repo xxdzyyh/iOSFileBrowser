@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"head" ofType:@"log"];
+    
+    NSString *string = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:nil];
+    
+    NSLog(@"%@",string);
+    
     return YES;
 }
 

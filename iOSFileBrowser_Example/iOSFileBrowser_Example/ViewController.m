@@ -44,7 +44,7 @@
 }
 - (IBAction)webviewPreview:(id)sender {
     
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"head" ofType:@"txt"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"head" ofType:@"log"];
     
     iOSWebviewController *vc = [[iOSWebviewController alloc] init];
     
